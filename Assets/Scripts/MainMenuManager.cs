@@ -309,10 +309,10 @@ public class MainMenuManager : MonoBehaviour
         UpdateClosestFoodProb(60f);
         UpdateHealthDrainRate(5f);
         UpdateReproductionSpeed(1f);
-        UpdateReproductionInterval(1.5f);
+        UpdateReproductionInterval(3f);
         UpdateBabyMultiplier(1f);
         UpdateBabyVolatility(.2f);
-        UpdateReproduceStomachFill(.5f);
+        UpdateReproduceStomachFill(.75f);
         UpdateMutationProbabilty(.6f);
         UpdateMutationChange(.1f);
         UpdateOmnivoreChance(.2f);

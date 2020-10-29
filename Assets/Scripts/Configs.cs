@@ -58,10 +58,10 @@ public class Configs : MonoBehaviour
 
     //REPRODUCTION CONFIGS
     public float matingMultiplier = 1f;
-    public float matingIntervalMultiplier = 1.5f;
+    public float matingIntervalMultiplier = 3f;
     public float babyMultiplier = 1f;
     public float babyCountVolatility = .2f;
-    public float reproduceStomachFill = .5f;
+    public float reproduceStomachFill = .75f;
 
     //MUTATION CONFIGS
     public float mutationProbability = .6f;
@@ -84,18 +84,18 @@ public class Configs : MonoBehaviour
     {
         //Default creatures (type|size|speed|mouthSize|armor|camo|isCarni|isHerbi)
         //Omnivores
-        creatureList.Add("Human|40|5|7|0|0|true|true");
-        creatureList.Add("Mouse|5|4|1|0|0|true|true");
+        creatureList.Add("Human|25|5|7|0|0|true|true");
+        creatureList.Add("Mouse|7|4|1|0|0|true|true");
 
         //Herbivores
-        creatureList.Add("Armadillo|8|4|2|50|0|false|true");
-        creatureList.Add("Elephant|100|3|15|15|0|false|true");
-        creatureList.Add("Chameleon|12|4|4|0|80|false|true");
-        creatureList.Add("Zebra|60|12|9|0|20|false|true");
-        creatureList.Add("Tortoise|45|2|3|100|0|false|true");
+        creatureList.Add("Armadillo|9|4|2|50|0|false|true");
+        creatureList.Add("Elephant|75|3|15|15|0|false|true");
+        creatureList.Add("Chameleon|10|4|4|0|80|false|true");
+        creatureList.Add("Zebra|40|12|9|0|20|false|true");
+        creatureList.Add("Tortoise|30|2|3|100|0|false|true");
 
         //Carnivores
-        creatureList.Add("Spider|3|10|1|0|0|true|false");
+        creatureList.Add("Spider|5|10|1|0|0|true|false");
         creatureList.Add("Wolf|20|8|6|50|0|true|false");
         
 
